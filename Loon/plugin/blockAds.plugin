@@ -787,10 +787,6 @@ IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, no-resolve
 # hostname = pan-api.bitqiu.com
 ^https?:\/\/pan-api\.bitqiu\.com\/activity\/getPromoteGuide reject
 
-# > 比亚迪王朝
-# hostname = cache.bydauto.com.cn
-# 首页开屏
-^https:\/\/cache\.bydauto\.com\.cn\/dilink_user_upload\/20 reject-200
 
 # > 币世界
 # hostname = iapi.bishijie.com
